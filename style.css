@@ -12,6 +12,11 @@
   padding-left: 30px;
 }
 
+h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* componnent style */
 
 body {
@@ -26,5 +31,15 @@ body {
 }
 
 #image {
-  width: 80%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  position: relative;
+  right: 130px;
 }
