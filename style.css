@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 #figcap {
@@ -15,6 +14,11 @@
 h2 {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+section {
+  text-align: center;
+  display: block;
 }
 
 /* componnent style */
@@ -35,11 +39,9 @@ body {
 }
 
 ul {
-  list-style-type: none;
   padding-left: 0px;
-}
-
-li {
-  position: relative;
-  right: 130px;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 550px;
+  margin:auto;
 }
