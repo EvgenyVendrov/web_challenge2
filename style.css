@@ -1,0 +1,28 @@
+/* layout */
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#figcap {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 10px;
+  /* margin: 15px 0px 0px 45px; */
+  /* align-items: flex-end; */
+}
+
+/* componnent style */
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e8e5e3;
+}
+
+.white {
+  background-color: white;
+}
