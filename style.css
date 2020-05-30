@@ -6,9 +6,8 @@
   align-items: center;
 }
 
-#figcap {
+figcaption {
   padding-top: 15px;
-  padding-left: 30px;
 }
 
 h2 {
@@ -21,27 +20,43 @@ section {
   display: block;
 }
 
-/* componnent style */
-
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #e8e5e3;
 }
-
-.white {
-  background-color: white;
-}
-
 #image {
-  width: 100%;
+  max-width: 100%;
 }
 
 ul {
   padding-left: 0px;
+  max-width: 550px;
+}
+
+li {
+  margin: 16px 0;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+}
+/* componnent style */
+
+body {
+  background-color: #e8e5e3;
+}
+
+ul {
   line-height: 1.6;
   text-align: left;
-  max-width: 550px;
-  margin: auto;
+}
+
+figure {
+  background-color: white;
+}
+
+P {
+  display: block;
 }
