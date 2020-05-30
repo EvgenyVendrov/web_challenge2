@@ -60,8 +60,9 @@ figure {
 #small_header {
   display: block;
 }
-p {
+#qoute {
   display: block;
+  font-style: italic;
 }
 
 /* typography */
